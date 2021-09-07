@@ -14,4 +14,5 @@ let second=document.getElementById(`second`)
   second.style.transform=`rotate(${srotation}deg)`
   let audio=document.getElementById('sound')
   audio.play()
+  console.clear()
 }, 0);
