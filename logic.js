@@ -12,4 +12,6 @@ let second=document.getElementById(`second`)
   hour.style.transform=`rotate(${hrotation}deg)`
   minute.style.transform=`rotate(${mrotation}deg)`
   second.style.transform=`rotate(${srotation}deg)`
-}, 1000);
+  let audio=document.getElementById('sound')
+  audio.play()
+}, 0);
